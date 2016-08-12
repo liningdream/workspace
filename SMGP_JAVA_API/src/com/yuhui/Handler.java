@@ -105,7 +105,7 @@ public class Handler implements ActionListener {
 				msg = "登录失败!";
 			}
 			JOptionPane.showMessageDialog(null, msg);
-		} else if (button.getText() == "Loginout") {
+		} else if (button.getText() == "退出") {
 			client.Disconnect();
 			button.setText("登录");
 		}
